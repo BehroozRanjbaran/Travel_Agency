@@ -9,9 +9,9 @@ Array.from(document.getElementsByTagName('input')).forEach((e , i) =>{
 })
 
 
-let menu-btn = document.getElementsByClassName('bi-three-dots')[0];
-let menu-bx = document.getElementById('menu-bx');
+let menu_btn = document.getElementsByClassName('bi-three-dots')[0];
+let menu_bx = document.getElementById('menu_bx');
 
-menu-btn.addEventListener('click' , ()=> {
-    menu-bx.classList.toggle('ul_active');
+menu_btn.addEventListener('click' , ()=> {
+    menu_bx.classList.toggle('ul_active');
 })
